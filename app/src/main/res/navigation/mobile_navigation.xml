@@ -7,19 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.skillcampmusic.ui.home.HomeFragment"
+        android:name="com.example.skillcampmusic.ui.viewpager2.ViewPager2Fragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_viewpager2" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.skillcampmusic.ui.dashboard.DashboardFragment"
+        android:name="com.example.skillcampmusic.ui.viewpager1.ViewPager1Fragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_viewpager1" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.skillcampmusic.ui.notifications.NotificationsFragment"
+        android:name="com.example.skillcampmusic.ui.grid_recycler.GridRecyclerFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_grid_recycler" />
+
+    <fragment
+        android:id="@+id/carouselFragment"
+        android:name="com.example.skillcampmusic.ui.carousel_recycler.CarouselFragment"
+        android:label="CarouselFragment"
+        tools:layout="@layout/fragment_carousel_recycler"/>
 </navigation>
