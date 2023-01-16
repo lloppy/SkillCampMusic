@@ -19,7 +19,6 @@ class GridRecyclerFragment : Fragment(R.layout.fragment_grid_recycler) {
 
             GridItem("12:00", R.drawable.imageone),
             GridItem("23:00", R.drawable.imagetwo),
-
             )
         val recyclerView: RecyclerView =  view.findViewById(R.id.recyclerView)
         recyclerView.adapter = GridRecyclerAdapter(requireContext(), list)
