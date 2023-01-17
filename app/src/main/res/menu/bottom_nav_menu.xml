@@ -17,7 +17,7 @@
         android:title="@string/title_notifications" />
 
     <item
-        android:id="@+id/navigation_carousel"
+        android:id="@+id/carouselFragment"
         android:icon="@drawable/ic_baseline_airplanemode_active_24"
         android:title="@string/title_carousel" />
 

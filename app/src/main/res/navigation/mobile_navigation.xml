@@ -22,10 +22,10 @@
         android:name="com.example.skillcampmusic.ui.viewpager2.ViewPager2Fragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_viewpager2" />
-
     <fragment
-        android:id="@+id/carousel_fragment"
+        android:id="@+id/carouselFragment"
         android:name="com.example.skillcampmusic.ui.carousel_recycler.CarouselFragment"
         android:label="CarouselFragment"
         tools:layout="@layout/fragment_carousel"/>
+
 </navigation>
