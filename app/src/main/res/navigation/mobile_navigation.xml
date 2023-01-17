@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.skillcampmusic.ui.viewpager2.ViewPager2Fragment"
+        android:name="com.example.skillcampmusic.ui.grid_recycler.GridRecyclerFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_viewpager2" />
+        tools:layout="@layout/fragment_grid_recycler" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -19,13 +19,13 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.skillcampmusic.ui.grid_recycler.GridRecyclerFragment"
+        android:name="com.example.skillcampmusic.ui.viewpager2.ViewPager2Fragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_grid_recycler" />
+        tools:layout="@layout/fragment_viewpager2" />
 
     <fragment
-        android:id="@+id/carouselFragment"
+        android:id="@+id/carousel_fragment"
         android:name="com.example.skillcampmusic.ui.carousel_recycler.CarouselFragment"
         android:label="CarouselFragment"
-        tools:layout="@layout/fragment_carousel_recycler"/>
+        tools:layout="@layout/fragment_carousel"/>
 </navigation>
